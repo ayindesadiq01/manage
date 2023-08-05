@@ -164,7 +164,7 @@ ul li a {
 /* GET STARTED */
 .link {
   position: absolute;
-  bottom: 30%;
+  bottom: 10%;
   left: 50%;
   transform: translate(-50%);
 }
@@ -275,7 +275,7 @@ ul li a {
   position: absolute;
   display: flex;
   left: 50%;
-  bottom: 40%;
+  bottom: 25%;
   transform: translateX(-50%);
   z-index: 100;
 }
@@ -337,7 +337,7 @@ ul li a {
   cursor: pointer;
   z-index: 100;
   position: absolute;
-  top: 30%;
+  top: 40%;
 }
 .btn--left{
   left: 8%;
