@@ -177,14 +177,14 @@ ul li a {
   letter-spacing: 1px;
   background: hsl(12, 88%, 59%);
   border-radius: 5px;
-  /* clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%); */
-  /* clip-path: polygon(20% 0, 0% 100%, 100% 100%, 100% 0%); */
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 17% 100%);
 }
 
 .get-started:hover {
   box-shadow: 0px 5px 30px hsl(12, 88%, 59%);
 }
+
+
 
 
 /* PAGES INFOR */
@@ -459,6 +459,18 @@ form {
   transform: translateY(8rem);
 }
 
+.nav-sticky {
+  position: fixed;
+  width: 100%;
+  margin-left: -18px;
+  z-index: 101;
+  background-color: rgba(179, 179, 179, 0.74);
+  padding: .1em .5em;
+  height: 50px;
+  transform: translateY(-1rem);
+  transition: transform .8s;
+    }
+
 @media (min-width: 500px) {
   .background-img-2 {
     z-index: -2;
@@ -641,6 +653,19 @@ form {
     order: 1;
     text-align: left;
     width: 45%;
+  }
+  
+  .home-page-texts .get-started {
+    clip-path: polygon(0 0, 100% 0%, 80% 100%, 0 100%);
+    padding: .8em 1.9em .8em 1em;
+  }
+
+  .slider .get-started {
+    padding: .8em 1em .8em 1.9em;
+  }
+
+  .link-items .get-started {
+    padding: .8em .1em .8em 2.2em;
   }
 
   .home-page-wordings {
