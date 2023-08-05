@@ -170,13 +170,16 @@ ul li a {
 }
 .get-started {
   position: relative;
-  padding: .7em 1.4em;
+  padding: 1em 2em;
   text-decoration: none;
   color: white;
   font-weight: 500;
   letter-spacing: 1px;
   background: hsl(12, 88%, 59%);
   border-radius: 5px;
+  /* clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%); */
+  /* clip-path: polygon(20% 0, 0% 100%, 100% 100%, 100% 0%); */
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 17% 100%);
 }
 
 .get-started:hover {
