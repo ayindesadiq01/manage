@@ -164,7 +164,7 @@ ul li a {
 /* GET STARTED */
 .link {
   position: absolute;
-  bottom: 15%;
+  bottom: 30%;
   left: 50%;
   transform: translate(-50%);
 }
@@ -275,7 +275,7 @@ ul li a {
   position: absolute;
   display: flex;
   left: 50%;
-  bottom: 35%;
+  bottom: 40%;
   transform: translateX(-50%);
   z-index: 100;
 }
@@ -304,7 +304,7 @@ ul li a {
 /* SLIDER */
 .slider {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   margin: 0 auto;
   position: relative;
   /* IN THE END */
